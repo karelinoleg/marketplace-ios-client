@@ -1,0 +1,4 @@
+/* Localized versions of Info.plist keys */
+"NSLocationWhenInUseUsageDescription" = "Используется для автоматического заполнения адреса доставки";
+"NSLocationAlwaysUsageDescription" = "Используется для автоматического заполнения адреса доставки";
+"CFBundleDisplayName" = "Демопицца";

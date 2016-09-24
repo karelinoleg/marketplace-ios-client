@@ -1,0 +1,80 @@
+/* 
+  Localizable.strings
+  Marketplace
+
+  Created by Олег on 5/24/16.
+  Copyright (c) 2016 U-group. All rights reserved.
+*/
+
+"OrderStatus.REJECTED" = "Отказан";
+"OrderStatus.PROCESS" = "В обработке";
+"OrderStatus.ASSEMBLE" = "Собирается";
+"OrderStatus.DELIVERY" = "Доставляется";
+"OrderStatus.READY_TO_ISSUE" = "Готов к выдаче";
+"OrderStatus.ISSUE" = "Выдается";
+"OrderStatus.ISSUED" = "Выдан";
+"OrderStatus.NOT_ISSUED" = "Не выдан";
+
+"PaymentStatus.NOT_PAID" = "Не оплачено";
+"PaymentStatus.PAYMENT_IS_BEING_PROCESSED" = "Проводится оплата";
+"PaymentStatus.PAID" = "Оплачено";
+
+"Ok" = "Ok";
+
+"CostTemplate" = "%.2f₽";
+
+"Catalog" = "Каталог";
+
+"OrdersList" = "Список заказов";
+
+"Loading" = "Загрузка…";
+
+"Sum: %@" = "Сумма: %@";
+
+"toOrder" = "Заказать";
+
+"PaymentTypeNotSpecified" = "Не выбран тип оплаты!";
+
+"SpecifyPaymentType" = "Выберите тип оплаты.";
+
+"DeliveryAddressNotSpecified" = "Не заполнен адрес доставки!";
+
+"SpecifyDeliveryAddress" = "Укажите адрес доставки.";
+
+"PhoneNumberNotSpecified" = "Не заполнен номер телефона!";
+
+"SpecifyPhoneNumber" = "Укажите номер телефона для связи с Вами.";
+
+"Error" = "Ошибка";
+
+"FailedToGetYourLocation" = "Не удалось определить Ваше местоположение";
+
+"NotAvailable" ="Недоступно";
+
+"%d pcs by" = "%d шт. по";
+
+"Order" = "Заказать";
+
+"ConfirmOrder" = "Подтвердить заказ";
+
+"OrderAccepted" = "Заказ принят";
+
+"CartIsEmpty" = "Ваша корзина пуста";
+
+"NoOrderEntries" = "Нет заказов";
+
+"DeliveryAddress:" = "Адрес доставки:";
+
+"PickupPoint:" = "Точка выдачи:";
+
+"phone:" = "тел.: ";
+
+"address:" = "адрес: ";
+
+"e-mail:" = "e-mail: ";
+
+"web:" = "сайт: ";
+
+"Attention" = "Внимание!";
+
+"ToOrdersList" = "К списку заказов";

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Buketov.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>Florist.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>Marketplace.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<true/>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>4C6B51631D90D55800065771</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4C712BCA1D8EC082001B0A4D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4C712C081D8EC3F6001B0A4D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4C712C451D8EC588001B0A4D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E65635C41CF3C877001C06DA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E6B406581C8AFFDF00088B25</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E6B4067C1C8AFFDF00088B25</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

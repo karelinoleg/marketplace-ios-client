@@ -1,0 +1,156 @@
+
+/* Class = "UILabel"; text = "ProductName"; ObjectID = "19E-OV-fVQ"; */
+"19E-OV-fVQ.text" = "ProductName";
+
+/* Class = "UILabel"; text = "OrderComment"; ObjectID = "1Fz-op-pdq"; */
+"1Fz-op-pdq.text" = "Комментарий к заказу";
+
+/* Class = "UILabel"; text = "Order comment:"; ObjectID = "2l9-2s-3wk"; */
+"2l9-2s-3wk.text" = "Комментарий к заказу:";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "2rr-vY-Pzh"; */
+"2rr-vY-Pzh.text" = "Label";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "46a-ZG-6Ah"; */
+"46a-ZG-6Ah.text" = "Title";
+
+/* Class = "UILabel"; text = "Count"; ObjectID = "4u4-SA-12h"; */
+"4u4-SA-12h.text" = "Count";
+
+/* Class = "UISegmentedControl"; 5kf-Jm-cc8.segmentTitles[0] = "Cash payment"; ObjectID = "5kf-Jm-cc8"; */
+"5kf-Jm-cc8.segmentTitles[0]" = "Оплата наличными";
+
+/* Class = "UISegmentedControl"; 5kf-Jm-cc8.segmentTitles[1] = "Online payment"; ObjectID = "5kf-Jm-cc8"; */
+"5kf-Jm-cc8.segmentTitles[1]" = "Оплата картой";
+
+/* Class = "UILabel"; text = "Subtitle"; ObjectID = "7W1-LL-Hia"; */
+"7W1-LL-Hia.text" = "Subtitle";
+
+/* Class = "UILabel"; text = "DeliveryAddress"; ObjectID = "7lN-wS-mNv"; */
+"7lN-wS-mNv.text" = "Адрес доставки";
+
+/* Class = "UILabel"; text = "Ordering outdated. You can use the actual data and repeat order."; ObjectID = "BwH-qF-6OF"; */
+"BwH-qF-6OF.text" = "Данные для заказа устарели. Вы можете использовать актуальные данные и повторить заказ.";
+
+/* Class = "UIViewController"; title = "First"; ObjectID = "CZ4-MO-1fc"; */
+"CZ4-MO-1fc.title" = "First";
+
+/* Class = "UILabel"; text = "CustomerName"; ObjectID = "Ed4-2G-c8o"; */
+"Ed4-2G-c8o.text" = "CustomerName";
+
+/* Class = "UILabel"; text = "0 р."; ObjectID = "J5w-US-Vkv"; */
+"J5w-US-Vkv.text" = "0 р.";
+
+/* Class = "UILabel"; text = "Sum"; ObjectID = "K8Z-rN-pD9"; */
+"K8Z-rN-pD9.text" = "Sum";
+
+/* Class = "UITextField"; placeholder = "Name"; ObjectID = "Kl0-AG-VdQ"; */
+"Kl0-AG-VdQ.placeholder" = "Имя";
+
+/* Class = "UILabel"; text = "Sum"; ObjectID = "LSz-sl-RqF"; */
+"LSz-sl-RqF.text" = "Sum";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "LqT-yc-OqY"; */
+"LqT-yc-OqY.text" = "Label";
+
+/* Class = "UILabel"; text = "Subtitle"; ObjectID = "Mz2-cy-hKV"; */
+"Mz2-cy-hKV.text" = "Subtitle";
+
+/* Class = "UILabel"; text = "Customer:"; ObjectID = "NNd-hq-4Qt"; */
+"NNd-hq-4Qt.text" = "Заказчик:";
+
+/* Class = "UITextField"; placeholder = "Phone"; ObjectID = "ORu-Av-F2a"; */
+"ORu-Av-F2a.placeholder" = "Телефон";
+
+/* Class = "UINavigationItem"; title = "Shopping cart"; ObjectID = "PLu-NW-oz4"; */
+"PLu-NW-oz4.title" = "Корзина";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "Pxz-hv-92e"; */
+"Pxz-hv-92e.text" = "Title";
+
+/* Class = "UIButton"; normalTitle = "To cart"; ObjectID = "Rde-Mf-vlw"; */
+"Rde-Mf-vlw.normalTitle" = "В корзину";
+
+/* Class = "UISegmentedControl"; RhB-NE-FIU.segmentTitles[0] = "Delivery"; ObjectID = "RhB-NE-FIU"; */
+"RhB-NE-FIU.segmentTitles[0]" = "Доставка";
+
+/* Class = "UISegmentedControl"; RhB-NE-FIU.segmentTitles[1] = "Pickup"; ObjectID = "RhB-NE-FIU"; */
+"RhB-NE-FIU.segmentTitles[1]" = "Самовывоз";
+
+/* Class = "UITextField"; placeholder = "Order comment"; ObjectID = "Srj-PB-VAy"; */
+"Srj-PB-VAy.placeholder" = "Комментарий к заказу";
+
+/* Class = "UIViewController"; title = "Checkout"; ObjectID = "VbN-hn-wcc"; */
+"VbN-hn-wcc.title" = "Заказ";
+
+/* Class = "UILabel"; text = "Delivery address:"; ObjectID = "W0P-0Z-vJJ"; */
+"W0P-0Z-vJJ.text" = "Адрес доставки:";
+
+/* Class = "UILabel"; text = "OldPrice"; ObjectID = "YmB-Wh-eyy"; */
+"YmB-Wh-eyy.text" = "OldPrice";
+
+/* Class = "UILabel"; text = "Product name"; ObjectID = "Yyc-zO-hbS"; */
+"Yyc-zO-hbS.text" = "Product name";
+
+/* Class = "UILabel"; text = "Count"; ObjectID = "ZmH-6h-hGw"; */
+"ZmH-6h-hGw.text" = "Count";
+
+/* Class = "UITextField"; placeholder = "Delivery address"; ObjectID = "anD-hu-xb4"; */
+"anD-hu-xb4.placeholder" = "Адрес доставки";
+
+/* Class = "UILabel"; text = "Select pickup point:"; ObjectID = "ayS-uT-ndJ"; */
+"ayS-uT-ndJ.text" = "Точка выдачи:";
+
+/* Class = "UILabel"; text = "PositionName"; ObjectID = "cZl-69-6Ub"; */
+"cZl-69-6Ub.text" = "PositionName";
+
+/* Class = "UITextView"; text = "Description"; ObjectID = "dPX-yv-Tlq"; */
+"dPX-yv-Tlq.text" = "Description";
+
+/* Class = "UILabel"; text = "Price"; ObjectID = "ebI-5q-y64"; */
+"ebI-5q-y64.text" = "Price";
+
+/* Class = "UITabBarItem"; title = "Orders List"; ObjectID = "kqB-lM-PPS"; */
+"kqB-lM-PPS.title" = "Список заказов";
+
+/* Class = "UITabBarItem"; title = "Shopping cart"; ObjectID = "mop-89-fmR"; */
+"mop-89-fmR.title" = "Корзина";
+
+/* Class = "UILabel"; text = "Name"; ObjectID = "n4X-Im-nYF"; */
+"n4X-Im-nYF.text" = "Name";
+
+/* Class = "UILabel"; text = "Price"; ObjectID = "onV-j2-rY7"; */
+"onV-j2-rY7.text" = "Price";
+
+/* Class = "UILabel"; text = "OldPrice"; ObjectID = "s8p-A2-sN2"; */
+"s8p-A2-sN2.text" = "OldPrice";
+
+/* Class = "UITabBarItem"; title = "Catalog"; ObjectID = "u1e-5L-l1D"; */
+"u1e-5L-l1D.title" = "Каталог";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "vMX-7V-Has"; */
+"vMX-7V-Has.text" = "Label";
+
+/* Class = "UILabel"; text = "OrderNumber"; ObjectID = "w4H-h3-say"; */
+"w4H-h3-say.text" = "OrderNumber";
+
+/* Class = "UILabel"; text = "Your order :"; ObjectID = "wKX-T7-pAA"; */
+"wKX-T7-pAA.text" = "Ваш заказ на сумму:";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "xJg-nB-X1D"; */
+"xJg-nB-X1D.text" = "0";
+
+/* Class = "UITabBarItem"; title = "About"; ObjectID = "xsy-Pn-myp"; */
+"xsy-Pn-myp.title" = "О нас";
+
+/* Class = "UILabel"; text = "Delivers"; ObjectID = "eA6-EC-Ujl"; */
+"eA6-EC-Ujl.text" = "Доставка";
+
+/* Class = "UILabel"; text = "Pickups"; ObjectID = "kD8-J7-NyQ"; */
+"kD8-J7-NyQ.text" = "Самовывоз";
+
+/* Class = "UILabel"; text = "Cash payment"; ObjectID = "ZBf-8g-9X1"; */
+"ZBf-8g-9X1.text" = "Оплата наличными";
+
+/* Class = "UILabel"; text = "Card payment"; ObjectID = "Fk4-jS-fCx"; */
+"Fk4-jS-fCx.text" = "Оплата картой";

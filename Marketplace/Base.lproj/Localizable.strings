@@ -1,0 +1,80 @@
+/* 
+  Localizable.strings
+  Marketplace
+
+  Created by Олег on 5/24/16.
+  Copyright (c) 2016 U-group. All rights reserved.
+*/
+
+"OrderStatus.REJECTED" = "Rejected";
+"OrderStatus.PROCESS" = "Process";
+"OrderStatus.ASSEMBLE" = "Assemble";
+"OrderStatus.DELIVERY" = "Delivery";
+"OrderStatus.READY_TO_ISSUE" = "Ready to issue";
+"OrderStatus.ISSUE" = "Issue";
+"OrderStatus.ISSUED" = "Issued";
+"OrderStatus.NOT_ISSUED" = "Not issued";
+
+"PaymentStatus.NOT_PAID" = "Not paid";
+"PaymentStatus.PAYMENT_IS_BEING_PROCESSED" = "Payment is being processed";
+"PaymentStatus.PAID" = "Paid";
+
+"Ok" = "Ok";
+
+"CostTemplate" = "%.2f₽";
+
+"Catalog" = "Catalog";
+
+"OrdersList" = "Orders list";
+
+"Loading" = "Loading…";
+
+"Sum: %@" = "Sum: %@";
+
+"toOrder" = "To Order";
+
+"PaymentTypeNotSpecified" = "Payment type not specified!";
+
+"SpecifyPaymentType" = "Select the payment type.";
+
+"DeliveryAddressNotSpecified" = "Delivery address is missing!";
+
+"SpecifyDeliveryAddress" = "Select the delivery address.";
+
+"PhoneNumberNotSpecified" = "Phone number is missing!";
+
+"SpecifyPhoneNumber" = "Enter the phone number to contact with you.";
+
+"Error" = "Error";
+
+"FailedToGetYourLocation" = "Failed to get Your location";
+
+"NotAvailable" ="Not available";
+
+"%d pcs by" = "%d pcs by";
+
+"Order" = "Order";
+
+"ConfirmOrder" = "Confirm Order";
+
+"OrderAccepted" = "Order is accepted";
+
+"CartIsEmpty" = "Cart is empty";
+
+"NoOrderEntries" = "You has not orders";
+
+"DeliveryAddress:" = "Delivery address:";
+
+"PickupPoint:" = "Pickup point:";
+
+"phone:" = "phone: ";
+
+"address:" = "address: ";
+
+"e-mail:" = "e-mail: ";
+
+"web:" = "web: ";
+
+"Attention" = "Attention!";
+
+"ToOrdersList" = "To orders list";

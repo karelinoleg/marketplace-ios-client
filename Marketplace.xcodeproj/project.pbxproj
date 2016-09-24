@@ -1,0 +1,1320 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C6B51611D8F164B00065771 /* UGOrganizationBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C6B51601D8F164B00065771 /* UGOrganizationBarButtonItem.m */; };
+		4C6B51621D8F18D700065771 /* UGOrganizationBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C6B51601D8F164B00065771 /* UGOrganizationBarButtonItem.m */; };
+		4C6B51651D90D55800065771 /* UGDeliveryOptionMO.m in Sources */ = {isa = PBXBuildFile; fileRef = E656353E1CF2B9A4001C06DA /* UGDeliveryOptionMO.m */; };
+		4C6B51661D90D55800065771 /* UGFolderItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E64EBC6A1CC8C63500D3F7AE /* UGFolderItem.m */; };
+		4C6B51671D90D55800065771 /* UGShoppingCartItemMO.m in Sources */ = {isa = PBXBuildFile; fileRef = E656353B1CF282C9001C06DA /* UGShoppingCartItemMO.m */; };
+		4C6B51681D90D55800065771 /* UGAboutController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C712BAF1D872B40001B0A4D /* UGAboutController.m */; };
+		4C6B51691D90D55800065771 /* UGOrderRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = E6B6F9F41CC9945B00C3DFCE /* UGOrderRequest.m */; };
+		4C6B516A1D90D55800065771 /* UGCatalogItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E64EBC661CC8C63500D3F7AE /* UGCatalogItem.m */; };
+		4C6B516B1D90D55800065771 /* UGTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6D539691CE087FA00609B55 /* UGTabBarController.m */; };
+		4C6B516C1D90D55800065771 /* UGOrganizationBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C6B51601D8F164B00065771 /* UGOrganizationBarButtonItem.m */; };
+		4C6B516D1D90D55800065771 /* UGOrganizationFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C712BBC1D8E635E001B0A4D /* UGOrganizationFooter.m */; };
+		4C6B516E1D90D55800065771 /* UGDeliveryDetailMO.m in Sources */ = {isa = PBXBuildFile; fileRef = E65635411CF2BA42001C06DA /* UGDeliveryDetailMO.m */; };
+		4C6B516F1D90D55800065771 /* UGShoppingCartController.m in Sources */ = {isa = PBXBuildFile; fileRef = E659C62C1CD8AD3C00C129E9 /* UGShoppingCartController.m */; };
+		4C6B51701D90D55800065771 /* UGOrderController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6BB0D621CE0D19B0090E3E0 /* UGOrderController.m */; };
+		4C6B51711D90D55800065771 /* UGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E6B4066C1C8AFFDF00088B25 /* UGAppDelegate.m */; };
+		4C6B51721D90D55800065771 /* UGDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = E637DD521CF20BF300CABB88 /* UGDataController.m */; };
+		4C6B51731D90D55800065771 /* UGCatalogCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E6D539661CE0646700609B55 /* UGCatalogCell.m */; };
+		4C6B51741D90D55800065771 /* UGOrderEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = E64EBC781CC8C69000D3F7AE /* UGOrderEntry.m */; };
+		4C6B51751D90D55800065771 /* UGConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = E6B406951C8B081700088B25 /* UGConstants.m */; };
+		4C6B51761D90D55800065771 /* UGOrderDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6B6FA0A1CD2418100C3DFCE /* UGOrderDetailsViewController.m */; };
+		4C6B51771D90D55800065771 /* UGOrganization.m in Sources */ = {isa = PBXBuildFile; fileRef = E64EBC6E1CC8C63500D3F7AE /* UGOrganization.m */; };
+		4C6B51781D90D55800065771 /* UGActualProductCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E637DD301CEF8E7400CABB88 /* UGActualProductCell.m */; };
+		4C6B51791D90D55800065771 /* UGProductDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6D539621CE0640700609B55 /* UGProductDetailsViewController.m */; };
+		4C6B517A1D90D55800065771 /* UGOrderResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = E6AAF20D1CEDCD0000791796 /* UGOrderResponse.m */; };
+		4C6B517B1D90D55800065771 /* UGShoppingCart.m in Sources */ = {isa = PBXBuildFile; fileRef = E6B6F9F81CC998C200C3DFCE /* UGShoppingCart.m */; };
+		4C6B517C1D90D55800065771 /* UGOrderItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E64EBC7B1CC8D51B00D3F7AE /* UGOrderItem.m */; };
+		4C6B517D1D90D55800065771 /* UGShoppingCartCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E6D215711CDFB08C008AF5AF /* UGShoppingCartCell.m */; };
+		4C6B517E1D90D55800065771 /* UGCatalogItemMO.m in Sources */ = {isa = PBXBuildFile; fileRef = E637DD551CF2187300CABB88 /* UGCatalogItemMO.m */; };
+		4C6B517F1D90D55800065771 /* UGCity.m in Sources */ = {isa = PBXBuildFile; fileRef = E64EBC681CC8C63500D3F7AE /* UGCity.m */; };
+		4C6B51801D90D55800065771 /* UGLocatedItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E64EBC6C1CC8C63500D3F7AE /* UGLocatedItem.m */; };
+		4C6B51811D90D55800065771 /* UGCartItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E6D215741CDFB54A008AF5AF /* UGCartItem.m */; };
+		4C6B51821D90D55800065771 /* UGProduct.m in Sources */ = {isa = PBXBuildFile; fileRef = E64EBC701CC8C63500D3F7AE /* UGProduct.m */; };
+		4C6B51831D90D55800065771 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E6B406681C8AFFDF00088B25 /* main.m */; };
+		4C6B51841D90D55800065771 /* UGOrderEntryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CFFD7671D7F3B0800C2B48B /* UGOrderEntryCell.m */; };
+		4C6B51851D90D55800065771 /* UGOrderRejectedController.m in Sources */ = {isa = PBXBuildFile; fileRef = E637DD2D1CEF2CDF00CABB88 /* UGOrderRejectedController.m */; };
+		4C6B51861D90D55800065771 /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E637DD4E1CF2087800CABB88 /* DataModel.xcdatamodeld */; };
+		4C6B51871D90D55800065771 /* UGCatalogController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6D539601CE0640700609B55 /* UGCatalogController.m */; };
+		4C6B51881D90D55800065771 /* DBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E637DD451CF19CB800CABB88 /* DBManager.m */; };
+		4C6B51891D90D55800065771 /* UGPair.m in Sources */ = {isa = PBXBuildFile; fileRef = E6AAF2101CEE2B3C00791796 /* UGPair.m */; };
+		4C6B518A1D90D55800065771 /* UGOrderItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E6B6F9FD1CD23D2200C3DFCE /* UGOrderItemCell.m */; };
+		4C6B518B1D90D55800065771 /* UGCommonBuildOrganizationMO.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C712BB61D8AF44A001B0A4D /* UGCommonBuildOrganizationMO.m */; };
+		4C6B518C1D90D55800065771 /* UGOrdersListController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6B6FA021CD2411200C3DFCE /* UGOrdersListController.m */; };
+		4C6B518D1D90D55800065771 /* UGOrganizationButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C712BC21D8E8ECA001B0A4D /* UGOrganizationButton.m */; };
+		4C6B518E1D90D55800065771 /* UGSingleton.m in Sources */ = {isa = PBXBuildFile; fileRef = E6B406981C8BE62600088B25 /* UGSingleton.m */; };
+		4C6B51901D90D55800065771 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E637DD391CF158AB00CABB88 /* CoreLocation.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		4C6B51911D90D55800065771 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6B4065E1C8AFFDF00088B25 /* CoreGraphics.framework */; };
+		4C6B51921D90D55800065771 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E65635AB1CF3A01C001C06DA /* CoreData.framework */; };
+		4C6B51931D90D55800065771 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E637DD411CF19C1400CABB88 /* libsqlite3.dylib */; };
+		4C6B51941D90D55800065771 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6B406601C8AFFDF00088B25 /* UIKit.framework */; };
+		4C6B51951D90D55800065771 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6B4065C1C8AFFDF00088B25 /* Foundation.framework */; };
+		4C6B51971D90D55800065771 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = E64BBBF51CF42B4C008CFB8C /* Localizable.strings */; };
+		4C6B51991D90D55800065771 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E65636081CF3EF18001C06DA /* Main.storyboard */; };
+		4C6B519A1D90D55800065771 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C6C0DED1D731303006E6E1B /* LaunchScreen.storyboard */; };
+		4C6B519C1D90D55800065771 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6B406771C8AFFDF00088B25 /* Images.xcassets */; };
+		4C6C0DEE1D731303006E6E1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C6C0DED1D731303006E6E1B /* LaunchScreen.storyboard */; };
+		4C712BB01D872B40001B0A4D /* UGAboutController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C712BAF1D872B40001B0A4D /* UGAboutController.m */; };
+		4C712BB71D8AF44A001B0A4D /* UGCommonBuildOrganizationMO.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C712BB61D8AF44A001B0A4D /* UGCommonBuildOrganizationMO.m */; };
+		4C712BBD1D8E635E001B0A4D /* UGOrganizationFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C712BBC1D8E635E001B0A4D /* UGOrganizationFooter.m */; };
+		4C712BC31D8E8ECA001B0A4D /* UGOrganizationButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C712BC21D8E8ECA001B0A4D /* UGOrganizationButton.m */; };
+		4C712C471D8EC588001B0A4D /* UGDeliveryOptionMO.m in Sources */ = {isa = PBXBuildFile; fileRef = E656353E1CF2B9A4001C06DA /* UGDeliveryOptionMO.m */; };
+		4C712C481D8EC588001B0A4D /* UGFolderItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E64EBC6A1CC8C63500D3F7AE /* UGFolderItem.m */; };
+		4C712C491D8EC588001B0A4D /* UGShoppingCartItemMO.m in Sources */ = {isa = PBXBuildFile; fileRef = E656353B1CF282C9001C06DA /* UGShoppingCartItemMO.m */; };
+		4C712C4A1D8EC588001B0A4D /* UGAboutController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C712BAF1D872B40001B0A4D /* UGAboutController.m */; };
+		4C712C4B1D8EC588001B0A4D /* UGOrderRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = E6B6F9F41CC9945B00C3DFCE /* UGOrderRequest.m */; };
+		4C712C4C1D8EC588001B0A4D /* UGCatalogItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E64EBC661CC8C63500D3F7AE /* UGCatalogItem.m */; };
+		4C712C4D1D8EC588001B0A4D /* UGTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6D539691CE087FA00609B55 /* UGTabBarController.m */; };
+		4C712C4E1D8EC588001B0A4D /* UGOrganizationFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C712BBC1D8E635E001B0A4D /* UGOrganizationFooter.m */; };
+		4C712C4F1D8EC588001B0A4D /* UGDeliveryDetailMO.m in Sources */ = {isa = PBXBuildFile; fileRef = E65635411CF2BA42001C06DA /* UGDeliveryDetailMO.m */; };
+		4C712C501D8EC588001B0A4D /* UGShoppingCartController.m in Sources */ = {isa = PBXBuildFile; fileRef = E659C62C1CD8AD3C00C129E9 /* UGShoppingCartController.m */; };
+		4C712C511D8EC588001B0A4D /* UGOrderController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6BB0D621CE0D19B0090E3E0 /* UGOrderController.m */; };
+		4C712C521D8EC588001B0A4D /* UGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E6B4066C1C8AFFDF00088B25 /* UGAppDelegate.m */; };
+		4C712C531D8EC588001B0A4D /* UGDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = E637DD521CF20BF300CABB88 /* UGDataController.m */; };
+		4C712C541D8EC588001B0A4D /* UGCatalogCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E6D539661CE0646700609B55 /* UGCatalogCell.m */; };
+		4C712C551D8EC588001B0A4D /* UGOrderEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = E64EBC781CC8C69000D3F7AE /* UGOrderEntry.m */; };
+		4C712C561D8EC588001B0A4D /* UGConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = E6B406951C8B081700088B25 /* UGConstants.m */; };
+		4C712C571D8EC588001B0A4D /* UGOrderDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6B6FA0A1CD2418100C3DFCE /* UGOrderDetailsViewController.m */; };
+		4C712C581D8EC588001B0A4D /* UGOrganization.m in Sources */ = {isa = PBXBuildFile; fileRef = E64EBC6E1CC8C63500D3F7AE /* UGOrganization.m */; };
+		4C712C591D8EC588001B0A4D /* UGActualProductCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E637DD301CEF8E7400CABB88 /* UGActualProductCell.m */; };
+		4C712C5A1D8EC588001B0A4D /* UGProductDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6D539621CE0640700609B55 /* UGProductDetailsViewController.m */; };
+		4C712C5B1D8EC588001B0A4D /* UGOrderResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = E6AAF20D1CEDCD0000791796 /* UGOrderResponse.m */; };
+		4C712C5C1D8EC588001B0A4D /* UGShoppingCart.m in Sources */ = {isa = PBXBuildFile; fileRef = E6B6F9F81CC998C200C3DFCE /* UGShoppingCart.m */; };
+		4C712C5D1D8EC588001B0A4D /* UGOrderItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E64EBC7B1CC8D51B00D3F7AE /* UGOrderItem.m */; };
+		4C712C5E1D8EC588001B0A4D /* UGShoppingCartCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E6D215711CDFB08C008AF5AF /* UGShoppingCartCell.m */; };
+		4C712C5F1D8EC588001B0A4D /* UGCatalogItemMO.m in Sources */ = {isa = PBXBuildFile; fileRef = E637DD551CF2187300CABB88 /* UGCatalogItemMO.m */; };
+		4C712C601D8EC588001B0A4D /* UGCity.m in Sources */ = {isa = PBXBuildFile; fileRef = E64EBC681CC8C63500D3F7AE /* UGCity.m */; };
+		4C712C611D8EC588001B0A4D /* UGLocatedItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E64EBC6C1CC8C63500D3F7AE /* UGLocatedItem.m */; };
+		4C712C621D8EC588001B0A4D /* UGCartItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E6D215741CDFB54A008AF5AF /* UGCartItem.m */; };
+		4C712C631D8EC588001B0A4D /* UGProduct.m in Sources */ = {isa = PBXBuildFile; fileRef = E64EBC701CC8C63500D3F7AE /* UGProduct.m */; };
+		4C712C641D8EC588001B0A4D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E6B406681C8AFFDF00088B25 /* main.m */; };
+		4C712C651D8EC588001B0A4D /* UGOrderEntryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CFFD7671D7F3B0800C2B48B /* UGOrderEntryCell.m */; };
+		4C712C661D8EC588001B0A4D /* UGOrderRejectedController.m in Sources */ = {isa = PBXBuildFile; fileRef = E637DD2D1CEF2CDF00CABB88 /* UGOrderRejectedController.m */; };
+		4C712C671D8EC588001B0A4D /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E637DD4E1CF2087800CABB88 /* DataModel.xcdatamodeld */; };
+		4C712C681D8EC588001B0A4D /* UGCatalogController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6D539601CE0640700609B55 /* UGCatalogController.m */; };
+		4C712C691D8EC588001B0A4D /* DBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E637DD451CF19CB800CABB88 /* DBManager.m */; };
+		4C712C6A1D8EC588001B0A4D /* UGPair.m in Sources */ = {isa = PBXBuildFile; fileRef = E6AAF2101CEE2B3C00791796 /* UGPair.m */; };
+		4C712C6B1D8EC588001B0A4D /* UGOrderItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E6B6F9FD1CD23D2200C3DFCE /* UGOrderItemCell.m */; };
+		4C712C6C1D8EC588001B0A4D /* UGCommonBuildOrganizationMO.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C712BB61D8AF44A001B0A4D /* UGCommonBuildOrganizationMO.m */; };
+		4C712C6D1D8EC588001B0A4D /* UGOrdersListController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6B6FA021CD2411200C3DFCE /* UGOrdersListController.m */; };
+		4C712C6E1D8EC588001B0A4D /* UGOrganizationButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C712BC21D8E8ECA001B0A4D /* UGOrganizationButton.m */; };
+		4C712C6F1D8EC588001B0A4D /* UGSingleton.m in Sources */ = {isa = PBXBuildFile; fileRef = E6B406981C8BE62600088B25 /* UGSingleton.m */; };
+		4C712C711D8EC588001B0A4D /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E637DD391CF158AB00CABB88 /* CoreLocation.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		4C712C721D8EC588001B0A4D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6B4065E1C8AFFDF00088B25 /* CoreGraphics.framework */; };
+		4C712C731D8EC588001B0A4D /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E65635AB1CF3A01C001C06DA /* CoreData.framework */; };
+		4C712C741D8EC588001B0A4D /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E637DD411CF19C1400CABB88 /* libsqlite3.dylib */; };
+		4C712C751D8EC588001B0A4D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6B406601C8AFFDF00088B25 /* UIKit.framework */; };
+		4C712C761D8EC588001B0A4D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6B4065C1C8AFFDF00088B25 /* Foundation.framework */; };
+		4C712C781D8EC588001B0A4D /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = E64BBBF51CF42B4C008CFB8C /* Localizable.strings */; };
+		4C712C7A1D8EC588001B0A4D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E65636081CF3EF18001C06DA /* Main.storyboard */; };
+		4C712C7B1D8EC588001B0A4D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C6C0DED1D731303006E6E1B /* LaunchScreen.storyboard */; };
+		4C712C7C1D8EC588001B0A4D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6B406771C8AFFDF00088B25 /* Images.xcassets */; };
+		4C8345351D955F4000AF14B9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4C8345371D955F4000AF14B9 /* InfoPlist.strings */; };
+		4C83453A1D95600800AF14B9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4C83453C1D95600800AF14B9 /* InfoPlist.strings */; };
+		4CB80E211D9605AB00277C3A /* Florist-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4CB80E1F1D9605A400277C3A /* Florist-Info.plist */; };
+		4CB80E261D96066400277C3A /* Demopizza-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4CB80E251D96066400277C3A /* Demopizza-Info.plist */; };
+		4CB80E301D9607D000277C3A /* Demopizza.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CB80E2F1D9607D000277C3A /* Demopizza.xcassets */; };
+		4CB80E321D9608DD00277C3A /* Florist.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CB80E2D1D9607C400277C3A /* Florist.xcassets */; };
+		4CB80E331D9608E100277C3A /* Buketov.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CB80E2B1D96079700277C3A /* Buketov.xcassets */; };
+		4CB80E341D9608E500277C3A /* Buketov-info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4CB80E291D96071D00277C3A /* Buketov-info.plist */; };
+		4CB80E3B1D96098600277C3A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4CB80E381D96097C00277C3A /* InfoPlist.strings */; };
+		4CFFD7681D7F3B0800C2B48B /* UGOrderEntryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CFFD7671D7F3B0800C2B48B /* UGOrderEntryCell.m */; };
+		E637DD2E1CEF2CDF00CABB88 /* UGOrderRejectedController.m in Sources */ = {isa = PBXBuildFile; fileRef = E637DD2D1CEF2CDF00CABB88 /* UGOrderRejectedController.m */; };
+		E637DD311CEF8E7400CABB88 /* UGActualProductCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E637DD301CEF8E7400CABB88 /* UGActualProductCell.m */; };
+		E637DD461CF19CB800CABB88 /* DBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E637DD451CF19CB800CABB88 /* DBManager.m */; };
+		E637DD501CF2087800CABB88 /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E637DD4E1CF2087800CABB88 /* DataModel.xcdatamodeld */; };
+		E637DD531CF20BF300CABB88 /* UGDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = E637DD521CF20BF300CABB88 /* UGDataController.m */; };
+		E637DD561CF2187300CABB88 /* UGCatalogItemMO.m in Sources */ = {isa = PBXBuildFile; fileRef = E637DD551CF2187300CABB88 /* UGCatalogItemMO.m */; };
+		E64BBBFA1CF42F6A008CFB8C /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = E64BBBF51CF42B4C008CFB8C /* Localizable.strings */; };
+		E64BBC091CF44DE6008CFB8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E65636081CF3EF18001C06DA /* Main.storyboard */; };
+		E64EBC711CC8C63500D3F7AE /* UGCatalogItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E64EBC661CC8C63500D3F7AE /* UGCatalogItem.m */; };
+		E64EBC721CC8C63500D3F7AE /* UGCity.m in Sources */ = {isa = PBXBuildFile; fileRef = E64EBC681CC8C63500D3F7AE /* UGCity.m */; };
+		E64EBC731CC8C63500D3F7AE /* UGFolderItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E64EBC6A1CC8C63500D3F7AE /* UGFolderItem.m */; };
+		E64EBC741CC8C63500D3F7AE /* UGLocatedItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E64EBC6C1CC8C63500D3F7AE /* UGLocatedItem.m */; };
+		E64EBC751CC8C63500D3F7AE /* UGOrganization.m in Sources */ = {isa = PBXBuildFile; fileRef = E64EBC6E1CC8C63500D3F7AE /* UGOrganization.m */; };
+		E64EBC761CC8C63500D3F7AE /* UGProduct.m in Sources */ = {isa = PBXBuildFile; fileRef = E64EBC701CC8C63500D3F7AE /* UGProduct.m */; };
+		E64EBC791CC8C69000D3F7AE /* UGOrderEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = E64EBC781CC8C69000D3F7AE /* UGOrderEntry.m */; };
+		E64EBC7C1CC8D51B00D3F7AE /* UGOrderItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E64EBC7B1CC8D51B00D3F7AE /* UGOrderItem.m */; };
+		E656353C1CF282C9001C06DA /* UGShoppingCartItemMO.m in Sources */ = {isa = PBXBuildFile; fileRef = E656353B1CF282C9001C06DA /* UGShoppingCartItemMO.m */; };
+		E656353F1CF2B9A4001C06DA /* UGDeliveryOptionMO.m in Sources */ = {isa = PBXBuildFile; fileRef = E656353E1CF2B9A4001C06DA /* UGDeliveryOptionMO.m */; };
+		E65635421CF2BA42001C06DA /* UGDeliveryDetailMO.m in Sources */ = {isa = PBXBuildFile; fileRef = E65635411CF2BA42001C06DA /* UGDeliveryDetailMO.m */; };
+		E65635A91CF39F35001C06DA /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E637DD411CF19C1400CABB88 /* libsqlite3.dylib */; };
+		E65635AA1CF3A015001C06DA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6B4065E1C8AFFDF00088B25 /* CoreGraphics.framework */; };
+		E65635AC1CF3A01C001C06DA /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E65635AB1CF3A01C001C06DA /* CoreData.framework */; };
+		E65635AD1CF3A028001C06DA /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E637DD391CF158AB00CABB88 /* CoreLocation.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		E65635AE1CF3A030001C06DA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6B406601C8AFFDF00088B25 /* UIKit.framework */; };
+		E659C62D1CD8AD3C00C129E9 /* UGShoppingCartController.m in Sources */ = {isa = PBXBuildFile; fileRef = E659C62C1CD8AD3C00C129E9 /* UGShoppingCartController.m */; };
+		E6AAF20E1CEDCD0100791796 /* UGOrderResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = E6AAF20D1CEDCD0000791796 /* UGOrderResponse.m */; };
+		E6AAF2111CEE2B3C00791796 /* UGPair.m in Sources */ = {isa = PBXBuildFile; fileRef = E6AAF2101CEE2B3C00791796 /* UGPair.m */; };
+		E6B4065D1C8AFFDF00088B25 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6B4065C1C8AFFDF00088B25 /* Foundation.framework */; };
+		E6B406691C8AFFDF00088B25 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E6B406681C8AFFDF00088B25 /* main.m */; };
+		E6B4066D1C8AFFDF00088B25 /* UGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E6B4066C1C8AFFDF00088B25 /* UGAppDelegate.m */; };
+		E6B406781C8AFFDF00088B25 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6B406771C8AFFDF00088B25 /* Images.xcassets */; };
+		E6B4067F1C8AFFDF00088B25 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6B4067E1C8AFFDF00088B25 /* XCTest.framework */; };
+		E6B406801C8AFFDF00088B25 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6B4065C1C8AFFDF00088B25 /* Foundation.framework */; };
+		E6B406811C8AFFDF00088B25 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6B406601C8AFFDF00088B25 /* UIKit.framework */; };
+		E6B4068B1C8AFFDF00088B25 /* MarketplaceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E6B4068A1C8AFFDF00088B25 /* MarketplaceTests.m */; };
+		E6B406961C8B081700088B25 /* UGConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = E6B406951C8B081700088B25 /* UGConstants.m */; };
+		E6B406991C8BE62600088B25 /* UGSingleton.m in Sources */ = {isa = PBXBuildFile; fileRef = E6B406981C8BE62600088B25 /* UGSingleton.m */; };
+		E6B6F9F51CC9945B00C3DFCE /* UGOrderRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = E6B6F9F41CC9945B00C3DFCE /* UGOrderRequest.m */; };
+		E6B6F9F91CC998C200C3DFCE /* UGShoppingCart.m in Sources */ = {isa = PBXBuildFile; fileRef = E6B6F9F81CC998C200C3DFCE /* UGShoppingCart.m */; };
+		E6B6F9FF1CD23D2200C3DFCE /* UGOrderItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E6B6F9FD1CD23D2200C3DFCE /* UGOrderItemCell.m */; };
+		E6B6FA061CD2411200C3DFCE /* UGOrdersListController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6B6FA021CD2411200C3DFCE /* UGOrdersListController.m */; };
+		E6B6FA0C1CD2418100C3DFCE /* UGOrderDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6B6FA0A1CD2418100C3DFCE /* UGOrderDetailsViewController.m */; };
+		E6BB0D631CE0D19B0090E3E0 /* UGOrderController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6BB0D621CE0D19B0090E3E0 /* UGOrderController.m */; };
+		E6D215721CDFB08C008AF5AF /* UGShoppingCartCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E6D215711CDFB08C008AF5AF /* UGShoppingCartCell.m */; };
+		E6D215751CDFB54A008AF5AF /* UGCartItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E6D215741CDFB54A008AF5AF /* UGCartItem.m */; };
+		E6D539631CE0640700609B55 /* UGCatalogController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6D539601CE0640700609B55 /* UGCatalogController.m */; };
+		E6D539641CE0640700609B55 /* UGProductDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6D539621CE0640700609B55 /* UGProductDetailsViewController.m */; };
+		E6D539671CE0646700609B55 /* UGCatalogCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E6D539661CE0646700609B55 /* UGCatalogCell.m */; };
+		E6D5396A1CE087FA00609B55 /* UGTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6D539691CE087FA00609B55 /* UGTabBarController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E6B406821C8AFFDF00088B25 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E6B406511C8AFFDF00088B25 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E6B406581C8AFFDF00088B25;
+			remoteInfo = Marketplace;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4C6B515F1D8F164B00065771 /* UGOrganizationBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UGOrganizationBarButtonItem.h; path = Orders/UGOrganizationBarButtonItem.h; sourceTree = "<group>"; };
+		4C6B51601D8F164B00065771 /* UGOrganizationBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UGOrganizationBarButtonItem.m; path = Orders/UGOrganizationBarButtonItem.m; sourceTree = "<group>"; };
+		4C6B51A01D90D55800065771 /* Florist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Florist.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C6C0DED1D731303006E6E1B /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4C712BAE1D872B40001B0A4D /* UGAboutController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UGAboutController.h; path = About/UGAboutController.h; sourceTree = "<group>"; };
+		4C712BAF1D872B40001B0A4D /* UGAboutController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UGAboutController.m; path = About/UGAboutController.m; sourceTree = "<group>"; };
+		4C712BB11D89C42B001B0A4D /* DataModel 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "DataModel 2.xcdatamodel"; sourceTree = "<group>"; };
+		4C712BB51D8AF44A001B0A4D /* UGCommonBuildOrganizationMO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UGCommonBuildOrganizationMO.h; path = CoreData/UGCommonBuildOrganizationMO.h; sourceTree = "<group>"; };
+		4C712BB61D8AF44A001B0A4D /* UGCommonBuildOrganizationMO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UGCommonBuildOrganizationMO.m; path = CoreData/UGCommonBuildOrganizationMO.m; sourceTree = "<group>"; };
+		4C712BBB1D8E635E001B0A4D /* UGOrganizationFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UGOrganizationFooter.h; path = Cart/UGOrganizationFooter.h; sourceTree = "<group>"; };
+		4C712BBC1D8E635E001B0A4D /* UGOrganizationFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UGOrganizationFooter.m; path = Cart/UGOrganizationFooter.m; sourceTree = "<group>"; };
+		4C712BC11D8E8EBB001B0A4D /* UGOrganizationButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UGOrganizationButton.h; path = Cart/UGOrganizationButton.h; sourceTree = "<group>"; };
+		4C712BC21D8E8ECA001B0A4D /* UGOrganizationButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UGOrganizationButton.m; path = Cart/UGOrganizationButton.m; sourceTree = "<group>"; };
+		4C712C801D8EC588001B0A4D /* Buketov.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Buketov.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C8345361D955F4000AF14B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4C8345381D955FE700AF14B9 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4C83453B1D95600800AF14B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4C83453D1D95600C00AF14B9 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4C8CBC261D808375001F5ACB /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		4CB80E1F1D9605A400277C3A /* Florist-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Florist-Info.plist"; path = "Resources/Florist/Florist-Info.plist"; sourceTree = "<group>"; };
+		4CB80E251D96066400277C3A /* Demopizza-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Demopizza-Info.plist"; path = "Resources/Demopizza/Demopizza-Info.plist"; sourceTree = "<group>"; };
+		4CB80E291D96071D00277C3A /* Buketov-info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Buketov-info.plist"; path = "Resources/Buketov/Buketov-info.plist"; sourceTree = "<group>"; };
+		4CB80E2B1D96079700277C3A /* Buketov.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Buketov.xcassets; path = Resources/Buketov/Buketov.xcassets; sourceTree = "<group>"; };
+		4CB80E2D1D9607C400277C3A /* Florist.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Florist.xcassets; path = Resources/Florist/Florist.xcassets; sourceTree = "<group>"; };
+		4CB80E2F1D9607D000277C3A /* Demopizza.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Demopizza.xcassets; path = Resources/Demopizza/Demopizza.xcassets; sourceTree = "<group>"; };
+		4CB80E391D96097C00277C3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Resources/Buketov/Base.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4CB80E3C1D96098B00277C3A /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = Resources/Buketov/ru.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4CFFD7641D7F284600C2B48B /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = Marketplace/ru.lproj/Main.strings; sourceTree = "<group>"; };
+		4CFFD7651D7F2F4800C2B48B /* UGCartRefreshDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = UGCartRefreshDelegate.h; path = Cart/UGCartRefreshDelegate.h; sourceTree = "<group>"; };
+		4CFFD7661D7F3B0800C2B48B /* UGOrderEntryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UGOrderEntryCell.h; path = Orders/UGOrderEntryCell.h; sourceTree = "<group>"; };
+		4CFFD7671D7F3B0800C2B48B /* UGOrderEntryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UGOrderEntryCell.m; path = Orders/UGOrderEntryCell.m; sourceTree = "<group>"; };
+		E637DD2C1CEF2CDF00CABB88 /* UGOrderRejectedController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UGOrderRejectedController.h; path = Order/UGOrderRejectedController.h; sourceTree = "<group>"; };
+		E637DD2D1CEF2CDF00CABB88 /* UGOrderRejectedController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UGOrderRejectedController.m; path = Order/UGOrderRejectedController.m; sourceTree = "<group>"; };
+		E637DD2F1CEF8E7400CABB88 /* UGActualProductCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UGActualProductCell.h; path = Order/UGActualProductCell.h; sourceTree = "<group>"; };
+		E637DD301CEF8E7400CABB88 /* UGActualProductCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UGActualProductCell.m; path = Order/UGActualProductCell.m; sourceTree = "<group>"; };
+		E637DD391CF158AB00CABB88 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		E637DD411CF19C1400CABB88 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		E637DD441CF19CB800CABB88 /* DBManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DBManager.h; path = Database/DBManager.h; sourceTree = "<group>"; };
+		E637DD451CF19CB800CABB88 /* DBManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DBManager.m; path = Database/DBManager.m; sourceTree = "<group>"; };
+		E637DD4F1CF2087800CABB88 /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
+		E637DD511CF20BF300CABB88 /* UGDataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UGDataController.h; path = CoreData/UGDataController.h; sourceTree = "<group>"; };
+		E637DD521CF20BF300CABB88 /* UGDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UGDataController.m; path = CoreData/UGDataController.m; sourceTree = "<group>"; };
+		E637DD541CF2187300CABB88 /* UGCatalogItemMO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UGCatalogItemMO.h; path = CoreData/UGCatalogItemMO.h; sourceTree = "<group>"; };
+		E637DD551CF2187300CABB88 /* UGCatalogItemMO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UGCatalogItemMO.m; path = CoreData/UGCatalogItemMO.m; sourceTree = "<group>"; };
+		E64BBBF41CF42B4C008CFB8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		E64BBBF61CF42B4E008CFB8C /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		E64EBC651CC8C63500D3F7AE /* UGCatalogItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UGCatalogItem.h; path = Model/UGCatalogItem.h; sourceTree = "<group>"; };
+		E64EBC661CC8C63500D3F7AE /* UGCatalogItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UGCatalogItem.m; path = Model/UGCatalogItem.m; sourceTree = "<group>"; };
+		E64EBC671CC8C63500D3F7AE /* UGCity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UGCity.h; path = Model/UGCity.h; sourceTree = "<group>"; };
+		E64EBC681CC8C63500D3F7AE /* UGCity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UGCity.m; path = Model/UGCity.m; sourceTree = "<group>"; };
+		E64EBC691CC8C63500D3F7AE /* UGFolderItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UGFolderItem.h; path = Model/UGFolderItem.h; sourceTree = "<group>"; };
+		E64EBC6A1CC8C63500D3F7AE /* UGFolderItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UGFolderItem.m; path = Model/UGFolderItem.m; sourceTree = "<group>"; };
+		E64EBC6B1CC8C63500D3F7AE /* UGLocatedItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UGLocatedItem.h; path = Model/UGLocatedItem.h; sourceTree = "<group>"; };
+		E64EBC6C1CC8C63500D3F7AE /* UGLocatedItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UGLocatedItem.m; path = Model/UGLocatedItem.m; sourceTree = "<group>"; };
+		E64EBC6D1CC8C63500D3F7AE /* UGOrganization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UGOrganization.h; path = Model/UGOrganization.h; sourceTree = "<group>"; };
+		E64EBC6E1CC8C63500D3F7AE /* UGOrganization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UGOrganization.m; path = Model/UGOrganization.m; sourceTree = "<group>"; };
+		E64EBC6F1CC8C63500D3F7AE /* UGProduct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UGProduct.h; path = Model/UGProduct.h; sourceTree = "<group>"; };
+		E64EBC701CC8C63500D3F7AE /* UGProduct.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UGProduct.m; path = Model/UGProduct.m; sourceTree = "<group>"; };
+		E64EBC771CC8C69000D3F7AE /* UGOrderEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UGOrderEntry.h; path = Model/Order/UGOrderEntry.h; sourceTree = "<group>"; };
+		E64EBC781CC8C69000D3F7AE /* UGOrderEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UGOrderEntry.m; path = Model/Order/UGOrderEntry.m; sourceTree = "<group>"; };
+		E64EBC7A1CC8D51B00D3F7AE /* UGOrderItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UGOrderItem.h; path = Model/Order/UGOrderItem.h; sourceTree = "<group>"; };
+		E64EBC7B1CC8D51B00D3F7AE /* UGOrderItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UGOrderItem.m; path = Model/Order/UGOrderItem.m; sourceTree = "<group>"; };
+		E656353A1CF282C9001C06DA /* UGShoppingCartItemMO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UGShoppingCartItemMO.h; path = CoreData/UGShoppingCartItemMO.h; sourceTree = "<group>"; };
+		E656353B1CF282C9001C06DA /* UGShoppingCartItemMO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UGShoppingCartItemMO.m; path = CoreData/UGShoppingCartItemMO.m; sourceTree = "<group>"; };
+		E656353D1CF2B9A4001C06DA /* UGDeliveryOptionMO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UGDeliveryOptionMO.h; path = CoreData/UGDeliveryOptionMO.h; sourceTree = "<group>"; };
+		E656353E1CF2B9A4001C06DA /* UGDeliveryOptionMO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UGDeliveryOptionMO.m; path = CoreData/UGDeliveryOptionMO.m; sourceTree = "<group>"; };
+		E65635401CF2BA42001C06DA /* UGDeliveryDetailMO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UGDeliveryDetailMO.h; path = CoreData/UGDeliveryDetailMO.h; sourceTree = "<group>"; };
+		E65635411CF2BA42001C06DA /* UGDeliveryDetailMO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UGDeliveryDetailMO.m; path = CoreData/UGDeliveryDetailMO.m; sourceTree = "<group>"; };
+		E65635AB1CF3A01C001C06DA /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		E65635B51CF3A581001C06DA /* UGSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UGSingleton.h; sourceTree = "<group>"; };
+		E65635C31CF3BD53001C06DA /* UGReloadable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UGReloadable.h; sourceTree = "<group>"; };
+		E65636091CF3EF18001C06DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Marketplace/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E659C62B1CD8AD3C00C129E9 /* UGShoppingCartController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UGShoppingCartController.h; path = Cart/UGShoppingCartController.h; sourceTree = "<group>"; };
+		E659C62C1CD8AD3C00C129E9 /* UGShoppingCartController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UGShoppingCartController.m; path = Cart/UGShoppingCartController.m; sourceTree = "<group>"; };
+		E6AAF20C1CEDCD0000791796 /* UGOrderResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UGOrderResponse.h; path = Model/Order/UGOrderResponse.h; sourceTree = "<group>"; };
+		E6AAF20D1CEDCD0000791796 /* UGOrderResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UGOrderResponse.m; path = Model/Order/UGOrderResponse.m; sourceTree = "<group>"; };
+		E6AAF20F1CEE2B3C00791796 /* UGPair.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UGPair.h; path = Model/UGPair.h; sourceTree = "<group>"; };
+		E6AAF2101CEE2B3C00791796 /* UGPair.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UGPair.m; path = Model/UGPair.m; sourceTree = "<group>"; };
+		E6B406591C8AFFDF00088B25 /* Demopizza.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demopizza.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6B4065C1C8AFFDF00088B25 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E6B4065E1C8AFFDF00088B25 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E6B406601C8AFFDF00088B25 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E6B406681C8AFFDF00088B25 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E6B4066A1C8AFFDF00088B25 /* Marketplace-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Marketplace-Prefix.pch"; sourceTree = "<group>"; };
+		E6B4066B1C8AFFDF00088B25 /* UGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UGAppDelegate.h; sourceTree = "<group>"; };
+		E6B4066C1C8AFFDF00088B25 /* UGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UGAppDelegate.m; sourceTree = "<group>"; };
+		E6B406771C8AFFDF00088B25 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E6B4067D1C8AFFDF00088B25 /* MarketplaceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarketplaceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6B4067E1C8AFFDF00088B25 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		E6B406861C8AFFDF00088B25 /* MarketplaceTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MarketplaceTests-Info.plist"; sourceTree = "<group>"; };
+		E6B4068A1C8AFFDF00088B25 /* MarketplaceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MarketplaceTests.m; sourceTree = "<group>"; };
+		E6B406941C8B081700088B25 /* UGConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UGConstants.h; sourceTree = "<group>"; };
+		E6B406951C8B081700088B25 /* UGConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UGConstants.m; sourceTree = "<group>"; };
+		E6B406981C8BE62600088B25 /* UGSingleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UGSingleton.m; sourceTree = "<group>"; };
+		E6B6F9F31CC9945B00C3DFCE /* UGOrderRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UGOrderRequest.h; path = Model/Order/UGOrderRequest.h; sourceTree = "<group>"; };
+		E6B6F9F41CC9945B00C3DFCE /* UGOrderRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UGOrderRequest.m; path = Model/Order/UGOrderRequest.m; sourceTree = "<group>"; };
+		E6B6F9F71CC998C200C3DFCE /* UGShoppingCart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UGShoppingCart.h; path = Cart/UGShoppingCart.h; sourceTree = "<group>"; };
+		E6B6F9F81CC998C200C3DFCE /* UGShoppingCart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UGShoppingCart.m; path = Cart/UGShoppingCart.m; sourceTree = "<group>"; };
+		E6B6F9FC1CD23D2200C3DFCE /* UGOrderItemCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UGOrderItemCell.h; path = Orders/UGOrderItemCell.h; sourceTree = "<group>"; };
+		E6B6F9FD1CD23D2200C3DFCE /* UGOrderItemCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UGOrderItemCell.m; path = Orders/UGOrderItemCell.m; sourceTree = "<group>"; };
+		E6B6FA011CD2411200C3DFCE /* UGOrdersListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UGOrdersListController.h; path = Orders/UGOrdersListController.h; sourceTree = "<group>"; };
+		E6B6FA021CD2411200C3DFCE /* UGOrdersListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UGOrdersListController.m; path = Orders/UGOrdersListController.m; sourceTree = "<group>"; };
+		E6B6FA091CD2418100C3DFCE /* UGOrderDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UGOrderDetailsViewController.h; path = Orders/UGOrderDetailsViewController.h; sourceTree = "<group>"; };
+		E6B6FA0A1CD2418100C3DFCE /* UGOrderDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UGOrderDetailsViewController.m; path = Orders/UGOrderDetailsViewController.m; sourceTree = "<group>"; };
+		E6BB0D611CE0D19B0090E3E0 /* UGOrderController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UGOrderController.h; path = Order/UGOrderController.h; sourceTree = "<group>"; };
+		E6BB0D621CE0D19B0090E3E0 /* UGOrderController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UGOrderController.m; path = Order/UGOrderController.m; sourceTree = "<group>"; };
+		E6D215701CDFB08C008AF5AF /* UGShoppingCartCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UGShoppingCartCell.h; path = Cart/UGShoppingCartCell.h; sourceTree = "<group>"; };
+		E6D215711CDFB08C008AF5AF /* UGShoppingCartCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UGShoppingCartCell.m; path = Cart/UGShoppingCartCell.m; sourceTree = "<group>"; };
+		E6D215731CDFB54A008AF5AF /* UGCartItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UGCartItem.h; path = Cart/UGCartItem.h; sourceTree = "<group>"; };
+		E6D215741CDFB54A008AF5AF /* UGCartItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UGCartItem.m; path = Cart/UGCartItem.m; sourceTree = "<group>"; };
+		E6D5395F1CE0640700609B55 /* UGCatalogController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UGCatalogController.h; path = Catalog/UGCatalogController.h; sourceTree = "<group>"; };
+		E6D539601CE0640700609B55 /* UGCatalogController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UGCatalogController.m; path = Catalog/UGCatalogController.m; sourceTree = "<group>"; };
+		E6D539611CE0640700609B55 /* UGProductDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UGProductDetailsViewController.h; path = Catalog/UGProductDetailsViewController.h; sourceTree = "<group>"; };
+		E6D539621CE0640700609B55 /* UGProductDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UGProductDetailsViewController.m; path = Catalog/UGProductDetailsViewController.m; sourceTree = "<group>"; };
+		E6D539651CE0646700609B55 /* UGCatalogCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UGCatalogCell.h; path = Catalog/UGCatalogCell.h; sourceTree = "<group>"; };
+		E6D539661CE0646700609B55 /* UGCatalogCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UGCatalogCell.m; path = Catalog/UGCatalogCell.m; sourceTree = "<group>"; };
+		E6D539681CE087FA00609B55 /* UGTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UGTabBarController.h; sourceTree = "<group>"; };
+		E6D539691CE087FA00609B55 /* UGTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UGTabBarController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C6B518F1D90D55800065771 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C6B51901D90D55800065771 /* CoreLocation.framework in Frameworks */,
+				4C6B51911D90D55800065771 /* CoreGraphics.framework in Frameworks */,
+				4C6B51921D90D55800065771 /* CoreData.framework in Frameworks */,
+				4C6B51931D90D55800065771 /* libsqlite3.dylib in Frameworks */,
+				4C6B51941D90D55800065771 /* UIKit.framework in Frameworks */,
+				4C6B51951D90D55800065771 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C712C701D8EC588001B0A4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C712C711D8EC588001B0A4D /* CoreLocation.framework in Frameworks */,
+				4C712C721D8EC588001B0A4D /* CoreGraphics.framework in Frameworks */,
+				4C712C731D8EC588001B0A4D /* CoreData.framework in Frameworks */,
+				4C712C741D8EC588001B0A4D /* libsqlite3.dylib in Frameworks */,
+				4C712C751D8EC588001B0A4D /* UIKit.framework in Frameworks */,
+				4C712C761D8EC588001B0A4D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6B406561C8AFFDF00088B25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E65635AD1CF3A028001C06DA /* CoreLocation.framework in Frameworks */,
+				E65635AA1CF3A015001C06DA /* CoreGraphics.framework in Frameworks */,
+				E65635AC1CF3A01C001C06DA /* CoreData.framework in Frameworks */,
+				E65635A91CF39F35001C06DA /* libsqlite3.dylib in Frameworks */,
+				E65635AE1CF3A030001C06DA /* UIKit.framework in Frameworks */,
+				E6B4065D1C8AFFDF00088B25 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6B4067A1C8AFFDF00088B25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6B4067F1C8AFFDF00088B25 /* XCTest.framework in Frameworks */,
+				E6B406811C8AFFDF00088B25 /* UIKit.framework in Frameworks */,
+				E6B406801C8AFFDF00088B25 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C420EAF1D87294300762DF2 /* About */ = {
+			isa = PBXGroup;
+			children = (
+				4C712BAE1D872B40001B0A4D /* UGAboutController.h */,
+				4C712BAF1D872B40001B0A4D /* UGAboutController.m */,
+			);
+			name = About;
+			sourceTree = "<group>";
+		};
+		4C83452A1D955D8F00AF14B9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4CB80E241D96060A00277C3A /* Buketov */,
+				4C83452C1D955DA200AF14B9 /* Florist */,
+				4C83452B1D955D9C00AF14B9 /* Demopizza */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		4C83452B1D955D9C00AF14B9 /* Demopizza */ = {
+			isa = PBXGroup;
+			children = (
+				4CB80E2F1D9607D000277C3A /* Demopizza.xcassets */,
+				4CB80E251D96066400277C3A /* Demopizza-Info.plist */,
+				4C8345371D955F4000AF14B9 /* InfoPlist.strings */,
+			);
+			name = Demopizza;
+			sourceTree = "<group>";
+		};
+		4C83452C1D955DA200AF14B9 /* Florist */ = {
+			isa = PBXGroup;
+			children = (
+				4CB80E2D1D9607C400277C3A /* Florist.xcassets */,
+				4CB80E1F1D9605A400277C3A /* Florist-Info.plist */,
+				4C83453C1D95600800AF14B9 /* InfoPlist.strings */,
+			);
+			name = Florist;
+			sourceTree = "<group>";
+		};
+		4CB80E241D96060A00277C3A /* Buketov */ = {
+			isa = PBXGroup;
+			children = (
+				4CB80E381D96097C00277C3A /* InfoPlist.strings */,
+				4CB80E2B1D96079700277C3A /* Buketov.xcassets */,
+				4CB80E291D96071D00277C3A /* Buketov-info.plist */,
+			);
+			name = Buketov;
+			sourceTree = "<group>";
+		};
+		E637DD431CF19C4000CABB88 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				E637DD441CF19CB800CABB88 /* DBManager.h */,
+				E637DD451CF19CB800CABB88 /* DBManager.m */,
+			);
+			name = Database;
+			sourceTree = "<group>";
+		};
+		E637DD4D1CF207F300CABB88 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				E637DD4E1CF2087800CABB88 /* DataModel.xcdatamodeld */,
+				E637DD511CF20BF300CABB88 /* UGDataController.h */,
+				E637DD521CF20BF300CABB88 /* UGDataController.m */,
+				E637DD541CF2187300CABB88 /* UGCatalogItemMO.h */,
+				E637DD551CF2187300CABB88 /* UGCatalogItemMO.m */,
+				E656353A1CF282C9001C06DA /* UGShoppingCartItemMO.h */,
+				E656353B1CF282C9001C06DA /* UGShoppingCartItemMO.m */,
+				E656353D1CF2B9A4001C06DA /* UGDeliveryOptionMO.h */,
+				E656353E1CF2B9A4001C06DA /* UGDeliveryOptionMO.m */,
+				E65635401CF2BA42001C06DA /* UGDeliveryDetailMO.h */,
+				E65635411CF2BA42001C06DA /* UGDeliveryDetailMO.m */,
+				4C712BB51D8AF44A001B0A4D /* UGCommonBuildOrganizationMO.h */,
+				4C712BB61D8AF44A001B0A4D /* UGCommonBuildOrganizationMO.m */,
+			);
+			name = CoreData;
+			sourceTree = "<group>";
+		};
+		E64EBC641CC8C62400D3F7AE /* Order */ = {
+			isa = PBXGroup;
+			children = (
+				E64EBC771CC8C69000D3F7AE /* UGOrderEntry.h */,
+				E64EBC781CC8C69000D3F7AE /* UGOrderEntry.m */,
+				E64EBC7A1CC8D51B00D3F7AE /* UGOrderItem.h */,
+				E64EBC7B1CC8D51B00D3F7AE /* UGOrderItem.m */,
+				E6B6F9F31CC9945B00C3DFCE /* UGOrderRequest.h */,
+				E6B6F9F41CC9945B00C3DFCE /* UGOrderRequest.m */,
+				E6AAF20C1CEDCD0000791796 /* UGOrderResponse.h */,
+				E6AAF20D1CEDCD0000791796 /* UGOrderResponse.m */,
+			);
+			name = Order;
+			sourceTree = "<group>";
+		};
+		E6B406501C8AFFDF00088B25 = {
+			isa = PBXGroup;
+			children = (
+				E6B406621C8AFFDF00088B25 /* Marketplace */,
+				E6B406841C8AFFDF00088B25 /* MarketplaceTests */,
+				E6B4065B1C8AFFDF00088B25 /* Frameworks */,
+				E6B4065A1C8AFFDF00088B25 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E6B4065A1C8AFFDF00088B25 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E6B406591C8AFFDF00088B25 /* Demopizza.app */,
+				E6B4067D1C8AFFDF00088B25 /* MarketplaceTests.xctest */,
+				4C712C801D8EC588001B0A4D /* Buketov.app */,
+				4C6B51A01D90D55800065771 /* Florist.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E6B4065B1C8AFFDF00088B25 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4C8CBC261D808375001F5ACB /* MapKit.framework */,
+				E65635AB1CF3A01C001C06DA /* CoreData.framework */,
+				E637DD411CF19C1400CABB88 /* libsqlite3.dylib */,
+				E637DD391CF158AB00CABB88 /* CoreLocation.framework */,
+				E6B4065C1C8AFFDF00088B25 /* Foundation.framework */,
+				E6B4065E1C8AFFDF00088B25 /* CoreGraphics.framework */,
+				E6B406601C8AFFDF00088B25 /* UIKit.framework */,
+				E6B4067E1C8AFFDF00088B25 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E6B406621C8AFFDF00088B25 /* Marketplace */ = {
+			isa = PBXGroup;
+			children = (
+				4C420EAF1D87294300762DF2 /* About */,
+				E637DD4D1CF207F300CABB88 /* CoreData */,
+				E637DD431CF19C4000CABB88 /* Database */,
+				E6B406A01C8C323F00088B25 /* Model */,
+				E6D5395E1CE063AD00609B55 /* Catalog */,
+				E6B6F9F61CC9988D00C3DFCE /* Cart */,
+				E6BB0D601CE0D1640090E3E0 /* Order */,
+				E6B6F9FA1CD23C9700C3DFCE /* Orders */,
+				E6B4066B1C8AFFDF00088B25 /* UGAppDelegate.h */,
+				E6B4066C1C8AFFDF00088B25 /* UGAppDelegate.m */,
+				E65636081CF3EF18001C06DA /* Main.storyboard */,
+				E65635C31CF3BD53001C06DA /* UGReloadable.h */,
+				E6B406941C8B081700088B25 /* UGConstants.h */,
+				E6B406951C8B081700088B25 /* UGConstants.m */,
+				E65635B51CF3A581001C06DA /* UGSingleton.h */,
+				E6B406981C8BE62600088B25 /* UGSingleton.m */,
+				E6D539681CE087FA00609B55 /* UGTabBarController.h */,
+				E6D539691CE087FA00609B55 /* UGTabBarController.m */,
+				E6B406771C8AFFDF00088B25 /* Images.xcassets */,
+				E6B406631C8AFFDF00088B25 /* Supporting Files */,
+				4C6C0DED1D731303006E6E1B /* LaunchScreen.storyboard */,
+			);
+			path = Marketplace;
+			sourceTree = "<group>";
+		};
+		E6B406631C8AFFDF00088B25 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4C83452A1D955D8F00AF14B9 /* Resources */,
+				E6B406681C8AFFDF00088B25 /* main.m */,
+				E6B4066A1C8AFFDF00088B25 /* Marketplace-Prefix.pch */,
+				E64BBBF51CF42B4C008CFB8C /* Localizable.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E6B406841C8AFFDF00088B25 /* MarketplaceTests */ = {
+			isa = PBXGroup;
+			children = (
+				E6B4068A1C8AFFDF00088B25 /* MarketplaceTests.m */,
+				E6B406851C8AFFDF00088B25 /* Supporting Files */,
+			);
+			path = MarketplaceTests;
+			sourceTree = "<group>";
+		};
+		E6B406851C8AFFDF00088B25 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E6B406861C8AFFDF00088B25 /* MarketplaceTests-Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E6B406A01C8C323F00088B25 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E64EBC641CC8C62400D3F7AE /* Order */,
+				E64EBC651CC8C63500D3F7AE /* UGCatalogItem.h */,
+				E64EBC661CC8C63500D3F7AE /* UGCatalogItem.m */,
+				E64EBC671CC8C63500D3F7AE /* UGCity.h */,
+				E64EBC681CC8C63500D3F7AE /* UGCity.m */,
+				E64EBC691CC8C63500D3F7AE /* UGFolderItem.h */,
+				E64EBC6A1CC8C63500D3F7AE /* UGFolderItem.m */,
+				E64EBC6B1CC8C63500D3F7AE /* UGLocatedItem.h */,
+				E64EBC6C1CC8C63500D3F7AE /* UGLocatedItem.m */,
+				E64EBC6D1CC8C63500D3F7AE /* UGOrganization.h */,
+				E64EBC6E1CC8C63500D3F7AE /* UGOrganization.m */,
+				E64EBC6F1CC8C63500D3F7AE /* UGProduct.h */,
+				E64EBC701CC8C63500D3F7AE /* UGProduct.m */,
+				E6AAF20F1CEE2B3C00791796 /* UGPair.h */,
+				E6AAF2101CEE2B3C00791796 /* UGPair.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		E6B6F9F61CC9988D00C3DFCE /* Cart */ = {
+			isa = PBXGroup;
+			children = (
+				4CFFD7651D7F2F4800C2B48B /* UGCartRefreshDelegate.h */,
+				E6B6F9F71CC998C200C3DFCE /* UGShoppingCart.h */,
+				E6B6F9F81CC998C200C3DFCE /* UGShoppingCart.m */,
+				E659C62B1CD8AD3C00C129E9 /* UGShoppingCartController.h */,
+				E659C62C1CD8AD3C00C129E9 /* UGShoppingCartController.m */,
+				E6D215701CDFB08C008AF5AF /* UGShoppingCartCell.h */,
+				E6D215711CDFB08C008AF5AF /* UGShoppingCartCell.m */,
+				E6D215731CDFB54A008AF5AF /* UGCartItem.h */,
+				E6D215741CDFB54A008AF5AF /* UGCartItem.m */,
+				4C712BC11D8E8EBB001B0A4D /* UGOrganizationButton.h */,
+				4C712BC21D8E8ECA001B0A4D /* UGOrganizationButton.m */,
+				4C712BBB1D8E635E001B0A4D /* UGOrganizationFooter.h */,
+				4C712BBC1D8E635E001B0A4D /* UGOrganizationFooter.m */,
+			);
+			name = Cart;
+			sourceTree = "<group>";
+		};
+		E6B6F9FA1CD23C9700C3DFCE /* Orders */ = {
+			isa = PBXGroup;
+			children = (
+				E6B6FA011CD2411200C3DFCE /* UGOrdersListController.h */,
+				E6B6FA021CD2411200C3DFCE /* UGOrdersListController.m */,
+				4CFFD7661D7F3B0800C2B48B /* UGOrderEntryCell.h */,
+				4CFFD7671D7F3B0800C2B48B /* UGOrderEntryCell.m */,
+				E6B6FA091CD2418100C3DFCE /* UGOrderDetailsViewController.h */,
+				E6B6FA0A1CD2418100C3DFCE /* UGOrderDetailsViewController.m */,
+				E6B6F9FC1CD23D2200C3DFCE /* UGOrderItemCell.h */,
+				E6B6F9FD1CD23D2200C3DFCE /* UGOrderItemCell.m */,
+				4C6B515F1D8F164B00065771 /* UGOrganizationBarButtonItem.h */,
+				4C6B51601D8F164B00065771 /* UGOrganizationBarButtonItem.m */,
+			);
+			name = Orders;
+			sourceTree = "<group>";
+		};
+		E6BB0D601CE0D1640090E3E0 /* Order */ = {
+			isa = PBXGroup;
+			children = (
+				E6BB0D611CE0D19B0090E3E0 /* UGOrderController.h */,
+				E6BB0D621CE0D19B0090E3E0 /* UGOrderController.m */,
+				E637DD2C1CEF2CDF00CABB88 /* UGOrderRejectedController.h */,
+				E637DD2D1CEF2CDF00CABB88 /* UGOrderRejectedController.m */,
+				E637DD2F1CEF8E7400CABB88 /* UGActualProductCell.h */,
+				E637DD301CEF8E7400CABB88 /* UGActualProductCell.m */,
+			);
+			name = Order;
+			sourceTree = "<group>";
+		};
+		E6D5395E1CE063AD00609B55 /* Catalog */ = {
+			isa = PBXGroup;
+			children = (
+				E6D5395F1CE0640700609B55 /* UGCatalogController.h */,
+				E6D539601CE0640700609B55 /* UGCatalogController.m */,
+				E6D539611CE0640700609B55 /* UGProductDetailsViewController.h */,
+				E6D539621CE0640700609B55 /* UGProductDetailsViewController.m */,
+				E6D539651CE0646700609B55 /* UGCatalogCell.h */,
+				E6D539661CE0646700609B55 /* UGCatalogCell.m */,
+			);
+			name = Catalog;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4C6B51631D90D55800065771 /* Florist */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C6B519D1D90D55800065771 /* Build configuration list for PBXNativeTarget "Florist" */;
+			buildPhases = (
+				4C6B51641D90D55800065771 /* Sources */,
+				4C6B518F1D90D55800065771 /* Frameworks */,
+				4C6B51961D90D55800065771 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Florist;
+			productName = Marketplace;
+			productReference = 4C6B51A01D90D55800065771 /* Florist.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4C712C451D8EC588001B0A4D /* Buketov */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C712C7D1D8EC588001B0A4D /* Build configuration list for PBXNativeTarget "Buketov" */;
+			buildPhases = (
+				4C712C461D8EC588001B0A4D /* Sources */,
+				4C712C701D8EC588001B0A4D /* Frameworks */,
+				4C712C771D8EC588001B0A4D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Buketov;
+			productName = Marketplace;
+			productReference = 4C712C801D8EC588001B0A4D /* Buketov.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E6B406581C8AFFDF00088B25 /* Demopizza */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6B4068E1C8AFFDF00088B25 /* Build configuration list for PBXNativeTarget "Demopizza" */;
+			buildPhases = (
+				E6B406551C8AFFDF00088B25 /* Sources */,
+				E6B406561C8AFFDF00088B25 /* Frameworks */,
+				E6B406571C8AFFDF00088B25 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Demopizza;
+			productName = Marketplace;
+			productReference = E6B406591C8AFFDF00088B25 /* Demopizza.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E6B4067C1C8AFFDF00088B25 /* MarketplaceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6B406911C8AFFDF00088B25 /* Build configuration list for PBXNativeTarget "MarketplaceTests" */;
+			buildPhases = (
+				E6B406791C8AFFDF00088B25 /* Sources */,
+				E6B4067A1C8AFFDF00088B25 /* Frameworks */,
+				E6B4067B1C8AFFDF00088B25 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E6B406831C8AFFDF00088B25 /* PBXTargetDependency */,
+			);
+			name = MarketplaceTests;
+			productName = MarketplaceTests;
+			productReference = E6B4067D1C8AFFDF00088B25 /* MarketplaceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E6B406511C8AFFDF00088B25 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = UG;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "U-group";
+				TargetAttributes = {
+					4C6B51631D90D55800065771 = {
+						DevelopmentTeam = P4R823ZA7B;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+					4C712C451D8EC588001B0A4D = {
+						DevelopmentTeam = P4R823ZA7B;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+					E6B406581C8AFFDF00088B25 = {
+						DevelopmentTeam = P4R823ZA7B;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+					E6B4067C1C8AFFDF00088B25 = {
+						TestTargetID = E6B406581C8AFFDF00088B25;
+					};
+				};
+			};
+			buildConfigurationList = E6B406541C8AFFDF00088B25 /* Build configuration list for PBXProject "Marketplace" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ru,
+			);
+			mainGroup = E6B406501C8AFFDF00088B25;
+			productRefGroup = E6B4065A1C8AFFDF00088B25 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E6B406581C8AFFDF00088B25 /* Demopizza */,
+				E6B4067C1C8AFFDF00088B25 /* MarketplaceTests */,
+				4C712C451D8EC588001B0A4D /* Buketov */,
+				4C6B51631D90D55800065771 /* Florist */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4C6B51961D90D55800065771 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C6B51971D90D55800065771 /* Localizable.strings in Resources */,
+				4C83453A1D95600800AF14B9 /* InfoPlist.strings in Resources */,
+				4C6B51991D90D55800065771 /* Main.storyboard in Resources */,
+				4CB80E211D9605AB00277C3A /* Florist-Info.plist in Resources */,
+				4C6B519A1D90D55800065771 /* LaunchScreen.storyboard in Resources */,
+				4C6B519C1D90D55800065771 /* Images.xcassets in Resources */,
+				4CB80E321D9608DD00277C3A /* Florist.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C712C771D8EC588001B0A4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CB80E341D9608E500277C3A /* Buketov-info.plist in Resources */,
+				4CB80E3B1D96098600277C3A /* InfoPlist.strings in Resources */,
+				4CB80E331D9608E100277C3A /* Buketov.xcassets in Resources */,
+				4C712C781D8EC588001B0A4D /* Localizable.strings in Resources */,
+				4C712C7A1D8EC588001B0A4D /* Main.storyboard in Resources */,
+				4C712C7B1D8EC588001B0A4D /* LaunchScreen.storyboard in Resources */,
+				4C712C7C1D8EC588001B0A4D /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6B406571C8AFFDF00088B25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E64BBBFA1CF42F6A008CFB8C /* Localizable.strings in Resources */,
+				4C8345351D955F4000AF14B9 /* InfoPlist.strings in Resources */,
+				E64BBC091CF44DE6008CFB8C /* Main.storyboard in Resources */,
+				4C6C0DEE1D731303006E6E1B /* LaunchScreen.storyboard in Resources */,
+				E6B406781C8AFFDF00088B25 /* Images.xcassets in Resources */,
+				4CB80E261D96066400277C3A /* Demopizza-Info.plist in Resources */,
+				4CB80E301D9607D000277C3A /* Demopizza.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6B4067B1C8AFFDF00088B25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C6B51641D90D55800065771 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C6B51651D90D55800065771 /* UGDeliveryOptionMO.m in Sources */,
+				4C6B51661D90D55800065771 /* UGFolderItem.m in Sources */,
+				4C6B51671D90D55800065771 /* UGShoppingCartItemMO.m in Sources */,
+				4C6B51681D90D55800065771 /* UGAboutController.m in Sources */,
+				4C6B51691D90D55800065771 /* UGOrderRequest.m in Sources */,
+				4C6B516A1D90D55800065771 /* UGCatalogItem.m in Sources */,
+				4C6B516B1D90D55800065771 /* UGTabBarController.m in Sources */,
+				4C6B516C1D90D55800065771 /* UGOrganizationBarButtonItem.m in Sources */,
+				4C6B516D1D90D55800065771 /* UGOrganizationFooter.m in Sources */,
+				4C6B516E1D90D55800065771 /* UGDeliveryDetailMO.m in Sources */,
+				4C6B516F1D90D55800065771 /* UGShoppingCartController.m in Sources */,
+				4C6B51701D90D55800065771 /* UGOrderController.m in Sources */,
+				4C6B51711D90D55800065771 /* UGAppDelegate.m in Sources */,
+				4C6B51721D90D55800065771 /* UGDataController.m in Sources */,
+				4C6B51731D90D55800065771 /* UGCatalogCell.m in Sources */,
+				4C6B51741D90D55800065771 /* UGOrderEntry.m in Sources */,
+				4C6B51751D90D55800065771 /* UGConstants.m in Sources */,
+				4C6B51761D90D55800065771 /* UGOrderDetailsViewController.m in Sources */,
+				4C6B51771D90D55800065771 /* UGOrganization.m in Sources */,
+				4C6B51781D90D55800065771 /* UGActualProductCell.m in Sources */,
+				4C6B51791D90D55800065771 /* UGProductDetailsViewController.m in Sources */,
+				4C6B517A1D90D55800065771 /* UGOrderResponse.m in Sources */,
+				4C6B517B1D90D55800065771 /* UGShoppingCart.m in Sources */,
+				4C6B517C1D90D55800065771 /* UGOrderItem.m in Sources */,
+				4C6B517D1D90D55800065771 /* UGShoppingCartCell.m in Sources */,
+				4C6B517E1D90D55800065771 /* UGCatalogItemMO.m in Sources */,
+				4C6B517F1D90D55800065771 /* UGCity.m in Sources */,
+				4C6B51801D90D55800065771 /* UGLocatedItem.m in Sources */,
+				4C6B51811D90D55800065771 /* UGCartItem.m in Sources */,
+				4C6B51821D90D55800065771 /* UGProduct.m in Sources */,
+				4C6B51831D90D55800065771 /* main.m in Sources */,
+				4C6B51841D90D55800065771 /* UGOrderEntryCell.m in Sources */,
+				4C6B51851D90D55800065771 /* UGOrderRejectedController.m in Sources */,
+				4C6B51861D90D55800065771 /* DataModel.xcdatamodeld in Sources */,
+				4C6B51871D90D55800065771 /* UGCatalogController.m in Sources */,
+				4C6B51881D90D55800065771 /* DBManager.m in Sources */,
+				4C6B51891D90D55800065771 /* UGPair.m in Sources */,
+				4C6B518A1D90D55800065771 /* UGOrderItemCell.m in Sources */,
+				4C6B518B1D90D55800065771 /* UGCommonBuildOrganizationMO.m in Sources */,
+				4C6B518C1D90D55800065771 /* UGOrdersListController.m in Sources */,
+				4C6B518D1D90D55800065771 /* UGOrganizationButton.m in Sources */,
+				4C6B518E1D90D55800065771 /* UGSingleton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C712C461D8EC588001B0A4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C712C471D8EC588001B0A4D /* UGDeliveryOptionMO.m in Sources */,
+				4C712C481D8EC588001B0A4D /* UGFolderItem.m in Sources */,
+				4C712C491D8EC588001B0A4D /* UGShoppingCartItemMO.m in Sources */,
+				4C712C4A1D8EC588001B0A4D /* UGAboutController.m in Sources */,
+				4C712C4B1D8EC588001B0A4D /* UGOrderRequest.m in Sources */,
+				4C712C4C1D8EC588001B0A4D /* UGCatalogItem.m in Sources */,
+				4C712C4D1D8EC588001B0A4D /* UGTabBarController.m in Sources */,
+				4C6B51621D8F18D700065771 /* UGOrganizationBarButtonItem.m in Sources */,
+				4C712C4E1D8EC588001B0A4D /* UGOrganizationFooter.m in Sources */,
+				4C712C4F1D8EC588001B0A4D /* UGDeliveryDetailMO.m in Sources */,
+				4C712C501D8EC588001B0A4D /* UGShoppingCartController.m in Sources */,
+				4C712C511D8EC588001B0A4D /* UGOrderController.m in Sources */,
+				4C712C521D8EC588001B0A4D /* UGAppDelegate.m in Sources */,
+				4C712C531D8EC588001B0A4D /* UGDataController.m in Sources */,
+				4C712C541D8EC588001B0A4D /* UGCatalogCell.m in Sources */,
+				4C712C551D8EC588001B0A4D /* UGOrderEntry.m in Sources */,
+				4C712C561D8EC588001B0A4D /* UGConstants.m in Sources */,
+				4C712C571D8EC588001B0A4D /* UGOrderDetailsViewController.m in Sources */,
+				4C712C581D8EC588001B0A4D /* UGOrganization.m in Sources */,
+				4C712C591D8EC588001B0A4D /* UGActualProductCell.m in Sources */,
+				4C712C5A1D8EC588001B0A4D /* UGProductDetailsViewController.m in Sources */,
+				4C712C5B1D8EC588001B0A4D /* UGOrderResponse.m in Sources */,
+				4C712C5C1D8EC588001B0A4D /* UGShoppingCart.m in Sources */,
+				4C712C5D1D8EC588001B0A4D /* UGOrderItem.m in Sources */,
+				4C712C5E1D8EC588001B0A4D /* UGShoppingCartCell.m in Sources */,
+				4C712C5F1D8EC588001B0A4D /* UGCatalogItemMO.m in Sources */,
+				4C712C601D8EC588001B0A4D /* UGCity.m in Sources */,
+				4C712C611D8EC588001B0A4D /* UGLocatedItem.m in Sources */,
+				4C712C621D8EC588001B0A4D /* UGCartItem.m in Sources */,
+				4C712C631D8EC588001B0A4D /* UGProduct.m in Sources */,
+				4C712C641D8EC588001B0A4D /* main.m in Sources */,
+				4C712C651D8EC588001B0A4D /* UGOrderEntryCell.m in Sources */,
+				4C712C661D8EC588001B0A4D /* UGOrderRejectedController.m in Sources */,
+				4C712C671D8EC588001B0A4D /* DataModel.xcdatamodeld in Sources */,
+				4C712C681D8EC588001B0A4D /* UGCatalogController.m in Sources */,
+				4C712C691D8EC588001B0A4D /* DBManager.m in Sources */,
+				4C712C6A1D8EC588001B0A4D /* UGPair.m in Sources */,
+				4C712C6B1D8EC588001B0A4D /* UGOrderItemCell.m in Sources */,
+				4C712C6C1D8EC588001B0A4D /* UGCommonBuildOrganizationMO.m in Sources */,
+				4C712C6D1D8EC588001B0A4D /* UGOrdersListController.m in Sources */,
+				4C712C6E1D8EC588001B0A4D /* UGOrganizationButton.m in Sources */,
+				4C712C6F1D8EC588001B0A4D /* UGSingleton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6B406551C8AFFDF00088B25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E656353F1CF2B9A4001C06DA /* UGDeliveryOptionMO.m in Sources */,
+				E64EBC731CC8C63500D3F7AE /* UGFolderItem.m in Sources */,
+				E656353C1CF282C9001C06DA /* UGShoppingCartItemMO.m in Sources */,
+				4C712BB01D872B40001B0A4D /* UGAboutController.m in Sources */,
+				E6B6F9F51CC9945B00C3DFCE /* UGOrderRequest.m in Sources */,
+				E64EBC711CC8C63500D3F7AE /* UGCatalogItem.m in Sources */,
+				E6D5396A1CE087FA00609B55 /* UGTabBarController.m in Sources */,
+				4C6B51611D8F164B00065771 /* UGOrganizationBarButtonItem.m in Sources */,
+				4C712BBD1D8E635E001B0A4D /* UGOrganizationFooter.m in Sources */,
+				E65635421CF2BA42001C06DA /* UGDeliveryDetailMO.m in Sources */,
+				E659C62D1CD8AD3C00C129E9 /* UGShoppingCartController.m in Sources */,
+				E6BB0D631CE0D19B0090E3E0 /* UGOrderController.m in Sources */,
+				E6B4066D1C8AFFDF00088B25 /* UGAppDelegate.m in Sources */,
+				E637DD531CF20BF300CABB88 /* UGDataController.m in Sources */,
+				E6D539671CE0646700609B55 /* UGCatalogCell.m in Sources */,
+				E64EBC791CC8C69000D3F7AE /* UGOrderEntry.m in Sources */,
+				E6B406961C8B081700088B25 /* UGConstants.m in Sources */,
+				E6B6FA0C1CD2418100C3DFCE /* UGOrderDetailsViewController.m in Sources */,
+				E64EBC751CC8C63500D3F7AE /* UGOrganization.m in Sources */,
+				E637DD311CEF8E7400CABB88 /* UGActualProductCell.m in Sources */,
+				E6D539641CE0640700609B55 /* UGProductDetailsViewController.m in Sources */,
+				E6AAF20E1CEDCD0100791796 /* UGOrderResponse.m in Sources */,
+				E6B6F9F91CC998C200C3DFCE /* UGShoppingCart.m in Sources */,
+				E64EBC7C1CC8D51B00D3F7AE /* UGOrderItem.m in Sources */,
+				E6D215721CDFB08C008AF5AF /* UGShoppingCartCell.m in Sources */,
+				E637DD561CF2187300CABB88 /* UGCatalogItemMO.m in Sources */,
+				E64EBC721CC8C63500D3F7AE /* UGCity.m in Sources */,
+				E64EBC741CC8C63500D3F7AE /* UGLocatedItem.m in Sources */,
+				E6D215751CDFB54A008AF5AF /* UGCartItem.m in Sources */,
+				E64EBC761CC8C63500D3F7AE /* UGProduct.m in Sources */,
+				E6B406691C8AFFDF00088B25 /* main.m in Sources */,
+				4CFFD7681D7F3B0800C2B48B /* UGOrderEntryCell.m in Sources */,
+				E637DD2E1CEF2CDF00CABB88 /* UGOrderRejectedController.m in Sources */,
+				E637DD501CF2087800CABB88 /* DataModel.xcdatamodeld in Sources */,
+				E6D539631CE0640700609B55 /* UGCatalogController.m in Sources */,
+				E637DD461CF19CB800CABB88 /* DBManager.m in Sources */,
+				E6AAF2111CEE2B3C00791796 /* UGPair.m in Sources */,
+				E6B6F9FF1CD23D2200C3DFCE /* UGOrderItemCell.m in Sources */,
+				4C712BB71D8AF44A001B0A4D /* UGCommonBuildOrganizationMO.m in Sources */,
+				E6B6FA061CD2411200C3DFCE /* UGOrdersListController.m in Sources */,
+				4C712BC31D8E8ECA001B0A4D /* UGOrganizationButton.m in Sources */,
+				E6B406991C8BE62600088B25 /* UGSingleton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6B406791C8AFFDF00088B25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6B4068B1C8AFFDF00088B25 /* MarketplaceTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E6B406831C8AFFDF00088B25 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E6B406581C8AFFDF00088B25 /* Demopizza */;
+			targetProxy = E6B406821C8AFFDF00088B25 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4C8345371D955F4000AF14B9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C8345361D955F4000AF14B9 /* Base */,
+				4C8345381D955FE700AF14B9 /* ru */,
+			);
+			name = InfoPlist.strings;
+			path = Resources/Demopizza;
+			sourceTree = "<group>";
+		};
+		4C83453C1D95600800AF14B9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C83453B1D95600800AF14B9 /* Base */,
+				4C83453D1D95600C00AF14B9 /* ru */,
+			);
+			name = InfoPlist.strings;
+			path = Resources/Florist;
+			sourceTree = "<group>";
+		};
+		4CB80E381D96097C00277C3A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CB80E391D96097C00277C3A /* Base */,
+				4CB80E3C1D96098B00277C3A /* ru */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E64BBBF51CF42B4C008CFB8C /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E64BBBF41CF42B4C008CFB8C /* Base */,
+				E64BBBF61CF42B4E008CFB8C /* ru */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		E65636081CF3EF18001C06DA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E65636091CF3EF18001C06DA /* Base */,
+				4CFFD7641D7F284600C2B48B /* ru */,
+			);
+			name = Main.storyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4C6B519E1D90D55800065771 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-Florist";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-Florist";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Marketplace/Marketplace-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/Marketplace/Resources/Florist/Florist-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.u-grp.marketplace.Florist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4C6B519F1D90D55800065771 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-Florist";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-Florist";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Marketplace/Marketplace-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/Marketplace/Resources/Florist/Florist-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.u-grp.marketplace.Florist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		4C712C7E1D8EC588001B0A4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-Buketov";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-Buketov";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Marketplace/Marketplace-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/Marketplace/Resources/Buketov/Buketov-info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.u-grp.marketplace.Buketov";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4C712C7F1D8EC588001B0A4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-Buketov";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-Buketov";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Marketplace/Marketplace-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/Marketplace/Resources/Buketov/Buketov-info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.u-grp.marketplace.Buketov";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		E6B4068C1C8AFFDF00088B25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E6B4068D1C8AFFDF00088B25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E6B4068F1C8AFFDF00088B25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-Demopizza";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-Demopizza";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1.1;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Marketplace/Marketplace-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/Marketplace/Resources/Demopizza/Demopizza-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.u-grp.marketplace.Demopizza";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VERSIONING_SYSTEM = "apple-generic";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E6B406901C8AFFDF00088B25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-Demopizza";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-Demopizza";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CURRENT_PROJECT_VERSION = 1.1;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Marketplace/Marketplace-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/Marketplace/Resources/Demopizza/Demopizza-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.u-grp.marketplace.Demopizza";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VERSIONING_SYSTEM = "apple-generic";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		E6B406921C8AFFDF00088B25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Marketplace.app/Marketplace";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Marketplace/Marketplace-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MarketplaceTests/MarketplaceTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.u-grp.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		E6B406931C8AFFDF00088B25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Marketplace.app/Marketplace";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Marketplace/Marketplace-Prefix.pch";
+				INFOPLIST_FILE = "MarketplaceTests/MarketplaceTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.u-grp.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C6B519D1D90D55800065771 /* Build configuration list for PBXNativeTarget "Florist" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C6B519E1D90D55800065771 /* Debug */,
+				4C6B519F1D90D55800065771 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C712C7D1D8EC588001B0A4D /* Build configuration list for PBXNativeTarget "Buketov" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C712C7E1D8EC588001B0A4D /* Debug */,
+				4C712C7F1D8EC588001B0A4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6B406541C8AFFDF00088B25 /* Build configuration list for PBXProject "Marketplace" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6B4068C1C8AFFDF00088B25 /* Debug */,
+				E6B4068D1C8AFFDF00088B25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6B4068E1C8AFFDF00088B25 /* Build configuration list for PBXNativeTarget "Demopizza" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6B4068F1C8AFFDF00088B25 /* Debug */,
+				E6B406901C8AFFDF00088B25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6B406911C8AFFDF00088B25 /* Build configuration list for PBXNativeTarget "MarketplaceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6B406921C8AFFDF00088B25 /* Debug */,
+				E6B406931C8AFFDF00088B25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E637DD4E1CF2087800CABB88 /* DataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4C712BB11D89C42B001B0A4D /* DataModel 2.xcdatamodel */,
+				E637DD4F1CF2087800CABB88 /* DataModel.xcdatamodel */,
+			);
+			currentVersion = 4C712BB11D89C42B001B0A4D /* DataModel 2.xcdatamodel */;
+			name = DataModel.xcdatamodeld;
+			path = CoreData/DataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E6B406511C8AFFDF00088B25 /* Project object */;
+}

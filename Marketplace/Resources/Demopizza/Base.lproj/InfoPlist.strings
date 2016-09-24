@@ -1,0 +1,4 @@
+/* Localized versions of Info.plist keys */
+"NSLocationWhenInUseUsageDescription" = "Is used for delivery address filling";
+"NSLocationAlwaysUsageDescription" = "Is used for delivery address filling";
+"CFBundleDisplayName" = "Demopizza";

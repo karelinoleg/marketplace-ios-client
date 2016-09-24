@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="10174" systemVersion="15A284" minimumToolsVersion="Xcode 4.3">
+    <entity name="CatalogItem" representedClassName="UGCatalogItemMO" syncable="YES">
+        <attribute name="identity" attributeType="String" indexed="YES" syncable="YES"/>
+        <attribute name="jsonData" attributeType="String" syncable="YES"/>
+        <attribute name="version" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <relationship name="shoppingCartItem" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="ShoppingCartItem" inverseName="product" inverseEntity="ShoppingCartItem" syncable="YES"/>
+    </entity>
+    <entity name="CommonBuildOrganization" representedClassName="UGCommonBuildOrganizationMO" syncable="YES">
+        <attribute name="identity" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="DeliveryDetail" representedClassName="UGDeliveryDetailMO" syncable="YES">
+        <attribute name="detail" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="detailType" attributeType="String" indexed="YES" syncable="YES"/>
+    </entity>
+    <entity name="DeliveryOption" representedClassName="UGDeliveryOptionMO" syncable="YES">
+        <attribute name="deliveryOption" attributeType="String" syncable="YES"/>
+        <attribute name="organizationId" attributeType="String" indexed="YES" syncable="YES"/>
+        <attribute name="pickupPointId" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="ShoppingCartItem" representedClassName="UGShoppingCartItemMO" syncable="YES">
+        <attribute name="count" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <relationship name="product" maxCount="1" deletionRule="Cascade" destinationEntity="CatalogItem" inverseName="shoppingCartItem" inverseEntity="CatalogItem" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="CatalogItem" positionX="124" positionY="14" width="128" height="103"/>
+        <element name="DeliveryDetail" positionX="-27" positionY="162" width="128" height="73"/>
+        <element name="DeliveryOption" positionX="115" positionY="153" width="128" height="88"/>
+        <element name="ShoppingCartItem" positionX="-63" positionY="9" width="128" height="73"/>
+        <element name="CommonBuildOrganization" positionX="-207" positionY="108" width="128" height="73"/>
+    </elements>
+</model>
